@@ -1,0 +1,8 @@
+[user]
+        name = Tomoki Anzai
+        email = anzai@jsk.imi.i.u-tokyo.ac.jp
+[alias]
+        ci = commit
+        co = checkout
+        st = status
+        br = branch
