@@ -1,5 +1,10 @@
 # system_establishment
 
+## zsh
+```
+$ chsh -s /bin/zsh [username]
+```
+
 ## xdg-user-dirs-gtk-update
 ```
 $ LANG=C xdg-user-dirs-gtk-update
