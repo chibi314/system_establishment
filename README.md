@@ -1,10 +1,5 @@
 # system_establishment
 
-## zsh
-```
-$ chsh -s /bin/zsh [username]
-```
-
 ## xdg-user-dirs-gtk-update
 ```
 $ LANG=C xdg-user-dirs-gtk-update
@@ -25,3 +20,6 @@ https://www.cs.gunma-u.ac.jp/~nagai/wiki/index.php?Ubuntu%2014.04%20%B1%D1%B8%EC
 ## show git branch in prompt
 https://qiita.com/ryosukue/items/bc1eae639e3950790eb9
 33m -> 34m (blue)
+
+## cuda
+https://qiita.com/JeJeNeNo/items/05e148a325192004e2cd
