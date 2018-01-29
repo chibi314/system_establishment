@@ -26,3 +26,6 @@ https://qiita.com/JeJeNeNo/items/05e148a325192004e2cd
 
 ## ros
 http://wiki.ros.org/kinetic/Installation/Ubuntu
+
+## chainermn
+https://qiita.com/pst-ic/items/e01033dee4d389df3a5e
