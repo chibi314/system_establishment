@@ -23,3 +23,6 @@ https://qiita.com/ryosukue/items/bc1eae639e3950790eb9
 
 ## cuda
 https://qiita.com/JeJeNeNo/items/05e148a325192004e2cd
+
+## ros
+http://wiki.ros.org/kinetic/Installation/Ubuntu
