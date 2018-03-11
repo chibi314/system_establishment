@@ -29,3 +29,6 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 ## chainermn
 https://qiita.com/pst-ic/items/e01033dee4d389df3a5e
+
+## grub default change
+http://komagawa292.net/20131103/grub2-default-os/
