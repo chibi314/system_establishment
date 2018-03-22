@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+#1;4205;0c ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -105,19 +105,45 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi
+
+if [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+fi
+
+if [ -f /etc/bash_completion.d/git-prompt ]; then
+    export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;31m\]$(__git_ps1) \n\[\033[01;34m\]\$\[\033[00m\] '
+else
+    export PS1='\[\033[01;32m\]\u@\h\[\033[01;33m\] \w \n\[\033[01;34m\]\$\[\033[00m\] '
+fi
+
+#^で上のディレクトリ
+bind '"^":"cd ..\n"'
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
 
+## CUDA and cuDNN paths
+export PATH=/usr/local/cuda-8.0/bin:${PATH}
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}
+export CPATH=/usr/local/include:${CPATH}
+export CPATH=/usr/local/cuda/include:${CPATH}
 
-source /opt/ros/kinetic/share/jsk_tools/src/bashrc.ros
-source ~/ros/aerial_robot/devel/setup.bash
+## TrueSTUDIO path
+export PATH=/opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.0/ide:${PATH}
 
+##user alias
 alias emacs="emacs -nw"
+alias op="xdg-open ."
+alias ..="cd .."
+
+#source ~/ros/kinetic/devel/setup.bash
+
+source ~/ros/aerial_robot_ws/devel/setup.bash
+#source ~/ros/seed_ws/devel/setup.bash
+
+#source /opt/ros/kinetic/share/jsk_tools/src/bashrc.ros
+
