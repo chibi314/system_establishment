@@ -7,4 +7,4 @@
         st = status
         br = branch
 [core]
-        editor = emacs
+        editor = emacs -nw
