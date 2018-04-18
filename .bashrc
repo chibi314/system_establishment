@@ -147,3 +147,6 @@ source ~/ros/aerial_robot_ws/devel/setup.bash
 
 #source /opt/ros/kinetic/share/jsk_tools/src/bashrc.ros
 
+#aries
+export SSH_USER=anzai
+export SVN_SSH="ssh -l ${SSH_USER}"
