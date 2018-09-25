@@ -122,6 +122,14 @@ fi
 #^で上のディレクトリ
 bind '"^":"cd ..\n"'
 
+#cdしたらls
+autols(){
+  [[ $AUTOLS_DIR != $PWD ]] && ls
+  AUTOLS_DIR="${PWD}"
+}
+
+export PROMPT_COMMAND="autols" 
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -132,20 +140,12 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}
 export CPATH=/usr/local/include:${CPATH}
 export CPATH=/usr/local/cuda/include:${CPATH}
 
-## TrueSTUDIO path
-export PATH=/opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.0/ide:${PATH}
-
 ##user alias
 alias emacs="emacs -nw"
 alias op="xdg-open ."
 alias ..="cd .."
 
-#source ~/ros/kinetic/devel/setup.bash
-
-source ~/ros/aerial_robot_ws/devel/setup.bash
-#source ~/ros/seed_ws/devel/setup.bash
-
-#source /opt/ros/kinetic/share/jsk_tools/src/bashrc.ros
+source ~/ros/kinetic/devel/setup.bash
 
 #aries
 export SSH_USER=anzai
