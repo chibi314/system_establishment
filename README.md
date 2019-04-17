@@ -59,3 +59,6 @@ EndSection
 https://senz.hatenablog.com/entry/2018/06/10/184327
 
 https://hogepad.com/linuxubuntuthinkpad-x1-carbon-5th-2017%E3%82%92ubuntu%E3%81%A8%E3%83%87%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%96%E3%83%BC%E3%83%88%E3%81%99%E3%82%8B1/
+
+## Windowsからsambaが見えないとき
+https://blog.makotokw.com/2017/12/26/windows10-samba-nas/
