@@ -62,3 +62,7 @@ https://hogepad.com/linuxubuntuthinkpad-x1-carbon-5th-2017%E3%82%92ubuntu%E3%81%
 
 ## Windowsからsambaが見えないとき
 https://blog.makotokw.com/2017/12/26/windows10-samba-nas/
+
+## emacs yaml mode
+https://github.com/yoshiki/yaml-mode
+clone して make & sudo make install
