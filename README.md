@@ -69,4 +69,5 @@ clone して make & sudo make install
 
 ## chromeからリンクを開けない時
 `~/.local/share/applications/google-chrome.desktop`
+
 `Exec=/opt/google/chrome/chrome %u`
