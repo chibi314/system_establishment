@@ -66,3 +66,7 @@ https://blog.makotokw.com/2017/12/26/windows10-samba-nas/
 ## emacs yaml mode
 https://github.com/yoshiki/yaml-mode
 clone して make & sudo make install
+
+## chromeからリンクを開けない時
+`~/.local/share/applications/google-chrome.desktop`
+`Exec=/opt/google/chrome/chrome %u`
