@@ -281,7 +281,7 @@ This function also returns nil meaning don't specify the indentation."
 ;;(global-set-key "\C-x\C-r" ros-keymap)
 ;;)
 
-(add-to-list 'load-path "/opt/ros/kinetic/share/emacs/site-lisp")
+(add-to-list 'load-path "/opt/ros/melodic/share/emacs/site-lisp")
 (require 'rosemacs-config)
 
 ;; for Arduino
