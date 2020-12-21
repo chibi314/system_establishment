@@ -303,3 +303,11 @@ This function also returns nil meaning don't specify the indentation."
 
 (add-to-list 'display-buffer-alist
      '("^\\*shell\\*$" . (display-buffer-same-window)))
+
+;; ホックを使った設定                                                           
+(defun my-c-c++-mode-init ()
+  (setq c-basic-offset 4)
+  )
+(add-hook 'c-mode-hook 'my-c-c++-mode-init)
+(add-hook 'c++-mode-hook 'my-c-c++-mode-init)
+
