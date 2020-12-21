@@ -135,17 +135,17 @@ export PROMPT_COMMAND="autols"
 # sources /etc/bash.bashrc).
 
 ## CUDA and cuDNN paths
-export PATH=/usr/local/cuda-8.0/bin:${PATH}
-export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}
-export CPATH=/usr/local/include:${CPATH}
-export CPATH=/usr/local/cuda/include:${CPATH}
+#export PATH=/usr/local/cuda-8.0/bin:${PATH}
+#export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}
+#export CPATH=/usr/local/include:${CPATH}
+#export CPATH=/usr/local/cuda/include:${CPATH}
 
 ##user alias
 alias emacs="emacs -nw"
 alias op="xdg-open ."
 alias ..="cd .."
 
-source ~/ros/kinetic/devel/setup.bash
+#source /opt/ros/melodic/setup.bash
 
 #aries
 export SSH_USER=anzai
