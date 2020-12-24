@@ -1,4 +1,4 @@
-#1;4205;0c ~/.bashrc: executed by bash(1) for non-login shells.
+# ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -150,3 +150,7 @@ alias ..="cd .."
 #aries
 export SSH_USER=anzai
 export SVN_SSH="ssh -l ${SSH_USER}"
+
+#export SVGA_VGPU10=0 #if virtual machine
+
+
