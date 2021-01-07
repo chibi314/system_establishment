@@ -71,3 +71,6 @@ clone して make & sudo make install
 `~/.local/share/applications/google-chrome.desktop`
 
 `Exec=/opt/google/chrome/chrome %u`
+
+## ワークスペースを元通りにする
+https://qiita.com/dfukunaga/items/1811ae6ffbb0f5ad2138
