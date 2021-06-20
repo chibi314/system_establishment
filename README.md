@@ -62,6 +62,10 @@ https://hogepad.com/linuxubuntuthinkpad-x1-carbon-5th-2017%E3%82%92ubuntu%E3%81%
 
 https://brauner.github.io/2018/09/08/thinkpad-6en-s3.html
 
+トラックポイントが動かないとき
+
+https://github.com/bes-dev/thinkpad_x1_carbon_6th_linux
+
 ## Windowsからsambaが見えないとき
 https://blog.makotokw.com/2017/12/26/windows10-samba-nas/
 
